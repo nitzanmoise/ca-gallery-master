@@ -1,0 +1,69 @@
+body {
+    margin: 0px auto;
+    width: 71%;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
+.backround{
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+h1 {
+    background-color: aqua;
+    border-radius:  10px; 
+    color: rgb(54, 45, 32);
+
+}
+.levels{
+    margin: 20px;
+}
+.levels button:hover {
+    background-color: blueviolet;
+    
+}
+table{
+    border: black;
+    margin: 0 auto;
+    background: #8e8888;
+
+
+}
+thead {
+    display: none;
+}
+tbody {
+    background-color: blanchedalmond;
+    border: rgb(36, 30, 31);
+}
+td {
+     border: 1; 
+     border-width: 1px;
+    border-collapse: collapse;
+    width: 50px;
+    height: 50px;
+    font-size:1.4em;
+    
+}
+tr {
+    width: 40px;
+    height: 40px;  
+    
+}
+.hidenCell {
+    outline: 5px solid orange;
+    display: none;
+}
+.mine {
+    background-color: red;
+}
+.reset {
+    margin-top: 10px;
+}
+.reset button:hover {
+    background-color: blueviolet;
+    
+}

@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    
+}
+main .Question {
+    background: brown; 
+    border-color: black;
+    border-radius: 10%;
+    padding: 50px;
+    
+}
+main .Question img {
+    width: 400px;
+}
+.wrong {
+    background-color: red;
+}

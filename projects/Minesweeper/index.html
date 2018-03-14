@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mineaweeper</title>
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="backround">
+        <link rel="stylesheet" href="css/minesweeper.css">
+        <h1>Mine sweeper!</h1>
+        <h2 class="timer"></h2>
+        <div class="levels">
+            <button class="beginner" onclick="changeGameLevel(this)">Beginner</button>
+            <button class="medium" onclick="changeGameLevel(this)">Medium</button>
+            <button class="expert" onclick="changeGameLevel(this)">Expert</button>
+        </div>
+        <table border="20" cellpadding="10">
+            <thead></thead>
+            <tbody class="tbl-mine">
+            </tbody>
+        </table>
+        <button class="reset" onclick="resetGame()">Reset game</button>
+        <script src="js/minesweeper.js"></script>
+    </div>
+</body>
+
+</html>

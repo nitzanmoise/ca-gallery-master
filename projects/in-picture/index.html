@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title> In picture</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<body onload="initGame()">
+    <header>
+        <h1>In picture</h1>
+        <h3>Choose the correct answer according to the picture!</h3>
+    </header>
+    <main>
+        <div class="Question">
+            <div class="img-container">
+                
+            </div>
+            <div class="answer-container">
+                <button class="answer1" onclick="checkAnswer(this, 0)"></button>
+                <button class="answer2" onclick="checkAnswer(this, 1)"></button>
+                <button class="answer3" onclick="checkAnswer(this, 2)"></button>
+
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+            <div class="summery">
+                
+            </div>
+            <div class="reset" > 
+                <button onclick="initGame()">Reset game</button>  
+            </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
